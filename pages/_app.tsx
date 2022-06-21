@@ -1,6 +1,7 @@
 // import "i18n";
 import "styles/taiwindcss.css";
 import "styles/globals.css";
+import "material-icons/iconfont/filled.css";
 import { useEffect } from "react";
 import getConfig from "next/config";
 import type { AppProps } from "next/app";
