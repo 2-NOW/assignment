@@ -3,7 +3,7 @@ import type { GetServerSideProps, NextPage } from "next";
 import Header from "container/header";
 import Footer from "container/footer";
 import Logo from "components/Logo";
-import Search from "components/Search";
+import Search from "components/Main/Search";
 
 const Home: NextPage = () => {
   // const { t } = useTranslation("initial");
@@ -14,13 +14,13 @@ const Home: NextPage = () => {
     //   <p className={"text-xl"}>{"message"}</p>
     //   <p className={"text-xl"}>{"i18n"}</p>
     // </div>
-    <>
+    <div className="flex flex-col h-screen">
       <Header />
       <Logo />
       <Search />
-      <div>section</div>
+      <section className="flex-1" />
       <Footer />
-    </>
+    </div>
   );
 };
 
