@@ -4,13 +4,15 @@ import Login from "components/Header/Login";
 
 function Items() {
   return (
-    <div className="flex pl-8">
-      <Link href={"https://www.google.com/intl/ko/gmail/about/"}>
-        <a>Gmail</a>
-      </Link>
-      <Link href={"https://www.google.co.kr/imghp?hl=ko&ogbl"}>
-        <a>이미지</a>
-      </Link>
+    <div className="flex px-1 items-center">
+      <div className="text-center text-[14px] pr-[15px]">
+        <Link href={"https://www.google.com/intl/ko/gmail/about/"}>
+          <a className="pl-[15px]">Gmail</a>
+        </Link>
+        <Link href={"https://www.google.co.kr/imghp?hl=ko&ogbl"}>
+          <a className="pl-[15px]">이미지</a>
+        </Link>
+      </div>
       <Menu />
       <Login />
     </div>
