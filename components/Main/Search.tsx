@@ -1,6 +1,6 @@
 import { useState, ChangeEvent, FormEvent } from "react";
 import { useRouter } from "next/router";
-import SearchLogo from "./SearchLogo";
+import MainLogo from "./MainLogo";
 import Button from "./Button";
 
 function Search() {
@@ -24,7 +24,7 @@ function Search() {
           onChange={handleChange}
           className="input pl-[50px] w-full input-bordered rounded-full"
         />
-        <SearchLogo />
+        <MainLogo />
         <div className="h-[70px] mt-[18px] flex justify-center text-[15px]">
           <Button text="Google 검색" keyword={keyword} />
           <Button text="I'm Feeling Lucky" link="https://www.google.com/doodles" />
