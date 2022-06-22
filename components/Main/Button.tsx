@@ -18,6 +18,7 @@ function Button({ text, link, keyword }: IButton) {
 
   return (
     <button
+      type={link ? "button" : "submit"}
       className="bg-[#f8f9fa] px-4 h-9 rounded my-[11px] mx-[6px] hover:drop-shadow-[0_1px_1px_rgb(0,0,0,0.2)]"
       onClick={handleClick}
     >
