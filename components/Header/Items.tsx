@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Link from "next/link";
-import Menu from "components/Header/Menu";
+import MenuButton from "components/Header/MenuButton";
 import Login from "components/Header/Login";
 import MenuModal from "components/MenuModal";
 
@@ -19,7 +19,7 @@ function Items() {
           <a className="ml-[15px] hover:border-b border-black">이미지</a>
         </Link>
       </div>
-      <Menu handleMenuClick={handleMenuClick} />
+      <MenuButton handleMenuClick={handleMenuClick} />
       {isOpen && <MenuModal />}
       <Login />
     </div>
