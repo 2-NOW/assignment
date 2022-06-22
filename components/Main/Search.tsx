@@ -1,5 +1,7 @@
 import { useState, ChangeEvent, FormEvent } from "react";
 import { useRouter } from "next/router";
+import SearchLogo from "./SearchLogo";
+import Button from "./Button";
 
 function Search() {
   const router = useRouter();
@@ -15,13 +17,18 @@ function Search() {
 
   return (
     <div className="p-[20px]">
-      <form className="pt-[6px] m-auto mt-0 w-[584px]" onSubmit={handleSubmit}>
+      <form className="relative pt-[6px] m-auto mt-0 w-[584px]" onSubmit={handleSubmit}>
         <input
           type="text"
           value={keyword}
           onChange={handleChange}
-          className="input w-full input-bordered rounded-full"
+          className="input pl-[50px] w-full input-bordered rounded-full"
         />
+        <SearchLogo />
+        <div className="h-[70px] mt-[18px] flex justify-center text-[15px]">
+          <Button text="Google 검색" keyword={keyword} />
+          <Button text="I'm Feeling Lucky" link="https://www.google.com/doodles" />
+        </div>
       </form>
     </div>
   );
