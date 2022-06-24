@@ -1,8 +1,8 @@
-import type { GetServerSideProps, NextPage } from "next";
+import type { NextPage } from "next";
 // import { useTranslation } from "react-i18next";
 import Header from "container/header";
 import Footer from "container/footer";
-import Logo from "components/Logo";
+import Logo from "components/Main/Logo";
 import Search from "components/Main/Search";
 
 const Home: NextPage = () => {
@@ -18,7 +18,7 @@ const Home: NextPage = () => {
       <Header />
       <Logo />
       <Search />
-      <section className="flex-1" />
+      <div className="flex-1" />
       <Footer />
     </div>
   );
