@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Link from "next/link";
-import MenuButton from "components/Header/MenuButton";
+import MenuButton from "components/Menu/Button";
 import Login from "components/Header/Login";
-import MenuModal from "components/MenuModal";
+import MenuModal from "components/Menu/Modal";
 
 function Items() {
   const [isOpen, setIsOpen] = useState(false);

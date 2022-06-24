@@ -16,7 +16,7 @@ const Icon = ({ type }: { type: IAlertProps["type"] }) => {
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
-          className="stroke-current flex-shrink-0 w-6 h-6"
+          className="flex-shrink-0 w-6 h-6 stroke-current"
         >
           <path
             strokeLinecap="round"
@@ -30,7 +30,7 @@ const Icon = ({ type }: { type: IAlertProps["type"] }) => {
       return (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="stroke-current flex-shrink-0 h-6 w-6"
+          className="flex-shrink-0 w-6 h-6 stroke-current"
           fill="none"
           viewBox="0 0 24 24"
         >
@@ -46,7 +46,7 @@ const Icon = ({ type }: { type: IAlertProps["type"] }) => {
       return (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="stroke-current flex-shrink-0 h-6 w-6"
+          className="flex-shrink-0 w-6 h-6 stroke-current"
           fill="none"
           viewBox="0 0 24 24"
         >
@@ -62,7 +62,7 @@ const Icon = ({ type }: { type: IAlertProps["type"] }) => {
       return (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="stroke-current flex-shrink-0 h-6 w-6"
+          className="flex-shrink-0 w-6 h-6 stroke-current"
           fill="none"
           viewBox="0 0 24 24"
         >
