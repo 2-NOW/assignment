@@ -1,4 +1,4 @@
-function MainLogo() {
+function SearchIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,4 +17,4 @@ function MainLogo() {
   );
 }
 
-export default MainLogo;
+export default SearchIcon;
